@@ -1,0 +1,109 @@
+div.head, div.mian{
+    width: 800px;
+}
+
+div.head{
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+div.lr{
+    float: left;
+    width: 300px;
+    height: 250px;
+}
+
+div.lr ul{
+    padding: 20px 0 0 50px;
+}
+
+div.lr ul li{
+    margin-bottom: 10px;
+}
+
+div.lr ul label{
+    margin-left: 5px;
+    font-size: 12px;
+    float: left;
+    line-height: 20px;
+    height: 20px;
+}
+
+div.lr ul li input{
+    width: 228px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+div.lr ul li input[type=checkbox] {
+    /*display: inline-block;*/
+    margin: 2px 0 0 0;
+    padding: 0;
+    line-height: 20px;
+    height: 20px;
+    border: none;
+    /*margin: 3px;*/
+    /*padding: 0;*/
+    width: auto;
+    float: left;
+}
+
+div.lr ul li span{
+    display: block;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+div.lr ul li span.error{
+    color: #FFF;
+    background: red;
+}
+
+div.lr ul li button{
+    width: 100%;
+}
+
+div.lr ol{
+    list-style: none;
+    padding: 20px 0 0 55px;
+}
+
+div.lr ol li, div.lr ol a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    border-bottom: 3px #ef4300 solid;
+    padding: 5px 0;
+    text-align: center;
+}
+
+div.lr ol a{
+    border-bottom-color: #CCC;
+}
+
+
+div.tu{
+    float: left;
+    width: 399px;
+    height: 220px;
+    padding: 0 40px;
+    margin: 50px 0;
+    border-right: 1px #CCC solid;
+}
+
+div.tu ul li{
+    text-align: center;
+}
+
+div.tu ul li img{
+    width: 200px;
+    border: 1px #EBEBEB solid;
+}
+
+div.tu ul li{
+    font-size: 12px;
+}

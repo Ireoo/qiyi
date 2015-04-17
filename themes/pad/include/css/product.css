@@ -1,0 +1,230 @@
+div.top{
+    height: 100px;
+    background: #EBEBEB;
+}
+
+div.m{
+    background: #333;
+}
+
+div.m ul{
+    width: 1200px;
+    margin: auto;
+}
+
+div.m ul a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: #FFF;
+}
+
+div.m ul a:hover{
+    color: #FFF;
+    background: #000;
+}
+
+div.m ul a.on{
+    color: #FFF;
+    background: #ef4300;
+}
+
+
+
+
+div.mian{
+    width: 1200px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+div.mian.head{
+    width: 1000px;
+    padding: 0 200px 0 0;
+    background: RGB(246, 246, 246);
+    margin-top: 10px;
+}
+
+div.mian div.photos{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: #333;
+}
+
+div.mian div.photos img{
+    width: 100%;
+    height: 100%;
+}
+
+div.mian div.minute{
+    padding: 0 10px;
+    float: right;
+    width: 580px;
+    height: 400px;
+    background: #FFF;
+}
+
+div.mian div.minute h1{
+    padding: 0 0 10px 0;
+    font-size: 14px;
+    /*font-family: 'microsoft yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    /*font-weight: normal;*/
+}
+
+div.mian div.minute div.money:before {
+    content: '';
+}
+
+div.mian div.minute div.money{
+    background: #EBEBEB;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.mian div.minute div.money em{
+    color: #b10000;
+    margin-bottom: 5px;
+}
+
+div.mian div.minute div.money em span{
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 30px;
+}
+
+div.mian div.minute div.money em, div.mian div.minute div.money span{
+    font-size: 16px;
+    font-style: normal;
+    display: block;
+}
+
+div.mian div.minute div.money em label, div.mian div.minute div.money span label{
+    display: inline-block;
+    width: 60px;
+    color: #AAA;
+    font-size: 12px;
+}
+
+div.mian div.minute div.money em i:before, div.mian div.minute div.money span i:before{
+    content: '¥';
+}
+
+div.mian div.minute div.money em i, div.mian div.minute div.money span i{
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial;
+    margin-right: 5px;
+}
+
+div.mian div.minute div.shou{
+    border-bottom: 1px dashed #EBEBEB;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div.mian div.minute div.shou span{
+    font-weight: bolder;
+    display: inline-block;
+    width: 30%;
+    color: #b10000;
+    font-size: 12px;
+    text-align: center;
+}
+
+div.mian div.minute div.shou span label{
+    font-weight: normal;
+    padding-right: 10px;
+    color: #AAA;
+}
+
+div.mian div.minute div.buy{
+    text-align: center;
+}
+
+div.mian div.minute div.buy a.pay{
+    font-weight: bolder;
+    display: inline-block;
+    border: 1px #b10000 solid;
+    background: #ffadba;
+    color: #b10000;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+div.mian div.minute div.buy a.put{
+    font-weight: bolder;
+    display: inline-block;
+    background: #b10000;
+    border: 1px #b10000 solid;
+    color: #FFF;
+    font-size: 16px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+div.mian div.minute ul{
+    margin-bottom: 10px;
+}
+
+div.mian div.minute ul li{
+    color: #AAA;
+    font-size: 12px;
+}
+
+div.mian div.minute ul li label{
+    display: inline-block;
+    width: 60px;
+}
+
+div.mian div.carte{
+    float: left;
+    width: 290px;
+}
+
+div.mian div.carte ul{
+    border: 1px #ebebeb solid;
+    margin-bottom: 10px;
+}
+
+div.mian div.carte ul h1{
+    font-size: 14px;
+    background: rgb(246, 246, 246);
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border-bottom: 1px #ebebeb solid;
+}
+
+div.mian div.carte ul li{
+    padding: 20px;
+}
+
+div.mian div.com{
+    float: right;
+    width: 900px;
+}
+
+div.mian div.com ul.mod{
+    border: 1px #ebebeb solid;
+}
+
+div.mian div.com ul.mod h1{
+    /*font-weight: bold;*/
+    font-size: 14px;
+    color: #b10000;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px #ebebeb solid;
+}
+
+div.mian div.com ul.mod li{
+    height: 300px;
+}

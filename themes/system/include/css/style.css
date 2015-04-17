@@ -1,0 +1,475 @@
+.clear{
+	clear: both;
+}
+
+.money:before{
+	content: '¥';
+	font-family: Arial;
+}
+
+@font-face{font-family:'rosettaicons';src:url('font/rosetta-icons-Regular.eot');src:url('font/rosetta-icons-Regular.eot?#iefix') format('embedded-opentype'),url('font/rosetta-icons-Regular.woff') format('woff'),url('font/rosetta-icons-Regular.ttf') format('truetype');font-style:normal;font-weight:normal}
+
+*{
+	padding: 0;
+	margin: 0;
+	/*font-family:"rosettaicons";*/
+	font-family: tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+	/*font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;*/
+	/*font: 12px/1 Tahoma, Helvetica, Arial, "5b8b4f53", sans-serif;*/
+	font-size: 1em;
+	list-style: none;
+	vertical-align: top;
+}
+
+img {
+
+}
+
+button {
+	cursor: pointer;
+	height: 44px;
+	padding: 0;
+	background: #ef4300;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #ff730e;
+	-moz-box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.25) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.25) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.25) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,.1);
+	-o-transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	-ms-transition: all .2s;
+}
+
+button:hover {
+	-moz-box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.15) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.15) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.15) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+}
+
+button:active {
+	-moz-box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.15) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow:
+	0 15px 30px 0 rgba(255,255,255,.15) inset,
+	0 2px 7px 0 rgba(0,0,0,.2);
+	box-shadow:
+	0 5px 8px 0 rgba(0,0,0,.1) inset,
+	0 1px 4px 0 rgba(0,0,0,.1);
+
+	border: 0px solid #ef4300;
+}
+
+input {
+	outline: none;
+	font-size: 18px;
+	border: 1px #CCC solid;
+	border-radius: 0;
+	background: #FFF;
+}
+
+input:hover {
+	border-color: #AAA;
+}
+
+input:focus {
+	border-color: #ef4300;
+}
+
+input.error{
+	border-color: red;
+}
+
+input.ok{
+	border-color: green;
+}
+
+div.error{
+	border-radius: 2px;
+	background: red;
+	color: #FFF;
+	padding: 5px 5px 5px 5px;
+}
+
+i.icon{
+	display: inline-block;
+	font-style: normal;
+	background-image: url("http://img.t.sinajs.cn/t6/style/images/common/icon-x2.png?id=201501231525");
+	background-size: 625px 325px;
+}
+
+i.icon.good{
+	background-position: -100px -25px;
+	width: 12px;
+	height: 13px;
+}
+
+/*body{background: RGB(246, 246, 246);}*/
+
+div.head{
+	width: 1200px;
+	padding: 5px 0 5px 0;
+	margin: auto;
+}
+
+div.head a.logo{
+	width: 100px;
+	height: 34px;
+	float: left;
+	margin-right: 20px;
+	border: none;
+}
+
+div.head a.logo img{
+	border: none;
+	width: 100px;
+	height: 34px;
+}
+
+form.search{
+	float: left;
+	background: #FFF;
+}
+
+form.search.on{
+	box-shadow: 1px 1px 1px #CCC;
+}
+
+form.search input{
+	float: left;
+	border-right: none;
+	outline: none;
+	padding: 0 10px;
+	font-size: 18px;
+	height: 32px;
+	width: 200px;
+	color: #CCC;
+}
+
+form.search input:focus{
+	color: #333;
+}
+
+form.search button{
+	float: left;
+	height: 34px;
+	padding: 0 18px 0 20px;
+	border: none;
+	font-size: 14px;
+	color: #FFF;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+div.head div.right{
+	float: right;
+	height: 34px;
+	line-height: 34px;
+}
+
+div.head div.right a{
+	margin-left: 10px;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	overflow: hidden;
+	border: 1px #CCC solid;
+	color: #CCC;
+	font-size: 12px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+div.head div.right a.person{
+	max-width: 100px;
+}
+
+div.head div.right a:hover{
+	background: #4898F8;
+	border-color: #4898F8;
+	color: #FFF;
+}
+
+div.meun{
+	background: #333;
+	/*border-top: solid 1px #ebebeb;*/
+	margin-bottom: 10px;
+	min-width: 1200px;
+}
+
+div.meun div{
+	margin: auto;
+	width: 1080px;
+	padding-left: 120px;
+}
+
+div.meun div a{
+	float: left;
+	line-height: 35px;
+	height: 35px;
+	text-decoration: none;
+	color: #CCC;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 20px;
+}
+
+div.meun a.on{
+	color: #FFF;
+	/*border-top: 4px #333 solid;*/
+	background: #ef4300;
+}
+
+div.meun a:hover{
+	background: #222;
+}
+
+div.meun a.on:hover{
+	background: #ef4300;
+}
+
+div.meun div div.right{
+	padding: 0;
+	float: right;
+	width: auto;
+}
+
+div.meun div div.right a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 12px;
+	padding: 0;
+	font-weight: normal;
+}
+
+div.meun div div.right a.on, div.meun div div.right a:hover{
+	color: #ef4300;
+	background: none;
+}
+
+div.mian{
+	margin: auto;
+	width: 1200px;
+	padding: 0 0 10px 0;
+	position: relative;
+}
+
+
+
+div.mian div.zhu{
+	background: #EBEBEB;
+	display: inline-block;
+	width: 1080px;
+	padding: 0 0 0 120px;
+}
+
+/*说说*/
+ul.say li{
+	margin-bottom: 10px;
+	background: rgb(246, 246, 246);
+	/*border: 1px #CCC solid;*/
+}
+
+ul.say li div.txt{
+	color: #333;
+	font-size: 16px;
+	padding: 10px;
+}
+
+ul.say li div.txt a{
+	font-size: 16px;
+	color: #ef4300;
+	font-weight: 100;
+}
+
+ul.say li div.img{
+	padding: 0 310px 0 10px;
+}
+
+ul.say li div.img.one{
+	padding: 0;
+}
+
+ul.say li div.img img{
+	width: 100px;
+	height: 100px;
+}
+
+ul.say li div.img.one img{
+	width: 100%;
+	height: auto;
+}
+
+ul.say li div.another{
+	padding: 0 10px 10px 10px;
+}
+
+ul.say li div.another a:before{
+	content: '•';
+	font-size: 12px;
+	font-weight: bolder;
+	margin: 0 5px 0 0;
+	color: #CCC;
+}
+
+ul.say li div.another a{
+	vertical-align: text-top;
+	margin-right: 10px;
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+}
+
+ul.say li div.another a:hover{
+	color: #eb7350;
+}
+
+ul.say li div.action{
+	border-top: 1px #EBEBEB solid;
+	padding: 0;
+}
+
+ul.say li div.action a{
+	width: 25%;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 0;
+}
+
+ul.say li div.action a span{
+	display: block;
+	border-right: 1px #FFF solid;
+	padding: 5px 10px;
+}
+
+ul.say li div.action a span.last{
+	border: none;
+}
+
+ul.say li div.action a span i.icon.good{
+	vertical-align: top;
+	margin-top: 3px;
+}
+
+ul.say li div.action a:hover span i.icon.good{
+	background-position: -125px -25px;
+}
+
+ul.say li div.action a span em{
+	padding-left: 5px;
+	font-style: normal;
+	font-size: 12px;
+}
+
+ul.say li div.action a:hover{
+	color: #eb7350;
+}
+
+ul.say li div.connect{
+	display: none;
+	border-top: 1px #CCC solid;
+	background: #EBEBEB;
+	padding: 10px;
+}
+
+ul.say li div.connect ul li{
+	font-size: 14px;
+	color: #333;
+	background: none;
+	border: none;
+}
+
+ul.say li div.connect form input{
+	background: rgb(246, 246, 246);
+	float: left;
+	width: 596px;
+	height: 28px;
+	padding: 0 5px;
+	line-height: 28px;
+	border-right: none;
+	color: #333;
+}
+ul.say li div.connect form button{
+	float: left;
+	width: 60px;
+	height: 30px;
+	border: none;
+	border-radius: 0;
+}
+
+
+
+
+/*翻页css*/
+div.ye{
+	text-align: center;
+}
+
+div.ye a{
+	font-weight: bold;
+	margin: 3px;
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 5px 10px;
+	background: RGB(246, 246, 246);
+	/*border: 1px #CCC solid;*/
+	color: #CCC;
+}
+
+div.ye a.no, div.ye a.no:hover{
+	background: none;
+	color: #CCC;
+}
+
+div.ye a:hover{
+	/*border-color: #ef4300;*/
+	background: #ef4300;
+	color: #FFF;
+}
+
+div.ye a.on{
+	/*border-color: #ef4300;*/
+	background: #ef4300;
+	color: #FFF;
+}
+
+
+
+div.foot{
+	text-align: center;
+	/*border-top: 1px RGB(246, 246, 246) solid;*/
+	color: #333;
+	font-size: 12px;
+	padding: 10px 0;
+}

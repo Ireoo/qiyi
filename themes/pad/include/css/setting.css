@@ -1,0 +1,118 @@
+div.m{
+    background: #333;
+    /*border-top: solid 1px #ebebeb;*/
+}
+
+div.m div{
+    margin: auto;
+    width: 1080px;
+    padding-left: 120px;
+}
+
+div.m div a{
+    display: inline-block;
+    line-height: 35px;
+    height: 35px;
+    text-decoration: none;
+    color: #CCC;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+div.m a.on{
+    color: #FFF;
+    /*border-top: 4px #333 solid;*/
+    background: #ef4300;
+}
+
+div.m a:hover{
+    background: #222;
+}
+
+div.m a.on:hover{
+    background: #ef4300;
+}
+
+
+
+div.person{
+    background: #EBEBEB;
+}
+
+div.person div{
+    padding: 10px 0;
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    height: 150px;
+}
+
+div.person div img{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 150px;
+    height: 150px;
+}
+
+div.person div h1{
+    padding-left: 160px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.mian{
+    width: 1200px;
+    margin: auto;
+}
+
+div.mian div.left{
+    float: left;
+    width: 110px;
+}
+
+div.mian div.left ul.money{
+    background: #CCC;
+    overflow: hidden;
+}
+
+div.mian div.left ul.money h1{
+    color: #999;
+    padding: 10px;
+    font-size: 24px;
+    /*font-weight: bold;*/
+    border-bottom: 1px #EBEBEB solid;
+}
+
+div.mian div.left ul.money h1 span em{
+    /*font-weight: bold;*/
+    color: green;
+    font-size: 30px;
+}
+
+div.mian div.left ul.money h1 span{
+    margin-left: 20px;
+}
+
+div.mian div.left ul.money a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+div.mian div.left ul.money a:hover{
+    background: #ef4300;
+}
+
+div.mian div.right{
+    float: right;
+    width: 1080px;
+    height: 200px;
+    background: #EBEBEB;
+}
